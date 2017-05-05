@@ -1,0 +1,109 @@
+{
+  "clients": [
+
+    {
+      "name": "UK",
+      "regulationTypeID": 255,
+      "lang": "eng",
+      "currencies": [
+        "USD",
+        "GBP",
+        "EUR",
+        "CAD",
+        "SEK",
+        "NOK"
+      ]
+    },
+
+    {
+      "name": "Denmark",
+      "regulationTypeID": 8,
+      "lang": "dan",
+      "currencies": ["DKK"]
+    },
+
+    {
+      "name": "Romania",
+      "regulationTypeID": 9,
+      "lang": "rum",
+      "currencies": ["RON"]
+    },
+
+    {
+      "name": "Italy",
+      "regulationTypeID": 1,
+      "lang": "ita",
+      "currencies": ["EUR"]
+    },
+
+    {
+      "name": "Spain",
+      "regulationTypeID": 2,
+      "lang": "spa",
+      "currencies": ["EUR"]
+    },
+
+    {
+      "name": "NewJersey",
+      "regulationTypeID": 7,
+      "lang": "eng",
+      "currencies": [ "USD" ]
+    },
+
+    {
+      "name": "None",
+      "regulationTypeID": 0,
+      "lang": "ger",
+      "currencies": [
+        "EUR",
+        "USD",
+        "GBP",
+        "CAD",
+        "SEK",
+        "NOK"
+      ]
+    },
+   
+    {
+      "name": "None - French",
+      "regulationTypeID": 0,
+      "lang": "fre",
+      "currencies": [
+        "EUR",
+        "USD",
+        "GBP",
+        "CAD",
+        "SEK",
+        "NOK"
+      ]
+    },
+   
+    {
+      "name": "None - Portuguese",
+      "regulationTypeID": 0,
+      "lang": "por",
+      "currencies": [
+        "EUR",
+        "USD",
+        "GBP",
+        "CAD",
+        "SEK",
+        "NOK"
+      ]
+    },
+   
+     {
+      "name": "None - Dutch",
+      "regulationTypeID": 0,
+      "lang": "dut",
+      "currencies": [
+        "EUR",
+        "USD",
+        "GBP",
+        "CAD",
+        "SEK",
+        "NOK"
+      ]
+    }
+  ]
+}
