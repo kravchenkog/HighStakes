@@ -1,1 +1,3 @@
-{}
+{
+  "test_table.py::test_testing[{'firefox': {'eng': ['USD', 255]}}]": true
+}

@@ -5,6 +5,7 @@ from fixture.settings import GameSettings
 from fixture.waiter import Waiters
 from fixture.chipselector import Chipselector
 from fixture.cells import Cells
+from points.points_collector_new import CellCollector
 from fixture.table import TableHelper
 
 
@@ -15,8 +16,8 @@ class AppManager:
 
 
         if browser=="firefox":
-            #self.driver = webdriver.Firefox(capabilities={"marionette": False})
-            self.driver = webdriver.Firefox()
+            self.driver = webdriver.Firefox(capabilities={"marionette": False})
+            #self.driver = webdriver.Firefox()
 
         elif browser == "chrome":
             self.driver = webdriver.Chrome()
@@ -32,6 +33,7 @@ class AppManager:
         self.chipselector = Chipselector(self)
         self.cells = Cells(self)
         self.table = TableHelper(self)
+        self.cell_new = CellCollector(self)
 
     def destroy(self):
         self.driver.quit()

@@ -16,7 +16,7 @@ def get_points_collection():
     all_points["six"] = []
     all_points["three"] = []
     all_points["blackred"] = []
-    all_points["column"].append(get_cells_from_file("points_column.csv"))
+    all_points["column"] = get_cells_from_file("points_column.csv")
     all_points["dozer"] = get_cells_from_file("points_dozer.csv")
     all_points["even_odd"] = get_cells_from_file("points_even_odd.csv")
     all_points["four"] = get_cells_from_file("points_four.csv")

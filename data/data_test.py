@@ -5,7 +5,7 @@ import socket
 
 def get_url(lang, currency, regulation_type_id):
     ip = socket.gethostbyname(socket.gethostname())
-    game_type_id = 130008
+    game_type_id = 130072
     basic_url = "http://"+ip+"/Html5GamesForGGPMock/" + str(game_type_id) + "/Game/?gameData="
     game_data = {"integration": 1,
                  "gameId": 710,

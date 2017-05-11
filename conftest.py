@@ -9,7 +9,7 @@ browser_value = None
 restart = False
 
 
-#testdata = [{'chrome': {'eng': ['USD', 255]}}]
+testdata = [{'firefox': {'eng': ['USD', 255]}}]
 
 @pytest.fixture(scope='module', params=testdata, ids=[str(x) for x in testdata])
 def app(request):
